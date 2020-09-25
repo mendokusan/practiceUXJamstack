@@ -7,9 +7,7 @@ permalink: /contact/
 This is our contact page! 
 
 <h3>Contact Form</h3>
-
-<div class="container">
-  <form action="/action_page.php">
+  <form name="contact" method="POST" data-netlify="true">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -27,8 +25,7 @@ This is our contact page!
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
-    
   </form>
-</div>
+
 
 
